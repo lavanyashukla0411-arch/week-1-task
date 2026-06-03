@@ -7,13 +7,11 @@ public:
         int sum = 0;
         int temp = n;
 
-        // Find sum of digits
         while (temp > 0) {
             sum += temp % 10;
             temp /= 10;
         }
-
-        // Check if sum is palindrome
+        
         int original = sum;
         int reverse = 0;
 
